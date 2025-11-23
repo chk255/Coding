@@ -26,15 +26,29 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run Playwright tests
-        run: npx playwright test
+      # FIX 1: Use Allure Playwright reporter
+      - name: Run Playwright tests (Allure)
+        run: npx playwright test --reporter=list,allure-playwright
         env:
           CI: true
 
+      # Optional: Debug - List files and folders
+      - name: List current directory
+        run: ls -l
+
+      - name: List allure-results directory
+        run: ls -l allure-results || echo "No allure-results directory!"
+
+      # Generate Allure HTML report
       - name: Generate Allure Report
         if: always()
         run: npx allure generate allure-results --clean -o allure-report || true
 
+      # Optional: Debug - List allure-report folder
+      - name: List allure-report directory
+        run: ls -l allure-report || echo "No allure-report directory!"
+
+      # Upload Allure HTML report
       - name: Upload Allure Report
         if: always()
         uses: actions/upload-artifact@v4
@@ -43,6 +57,7 @@ jobs:
           path: allure-report
           retention-days: 30
 
+      # Upload Playwright report (if exists)
       - name: Upload Playwright Report
         if: always()
         uses: actions/upload-artifact@v4
