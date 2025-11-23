@@ -63,15 +63,32 @@ jobs:
           path: report-site/
           retention-days: 30
 
-      - name: Deploy reports to GitHub Pages (full)
+      - name: Deploy reports to gh-pages (merge into reports/full)
         if: always()
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: report-site/
-
-      - name: Publish Pages
-        if: always()
-        uses: actions/deploy-pages@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          REPO="${{ github.repository }}"
+          BRANCH=gh-pages
+          TARGET_DIR=reports/full
+          # clone gh-pages (or create it) then update subfolder
+          if git ls-remote --exit-code origin ${BRANCH}; then
+            git clone --depth 1 --branch ${BRANCH} https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO} gh-pages
+          else
+            git clone https://github.com/${REPO} gh-pages || true
+            mkdir -p gh-pages
+            cd gh-pages
+            git checkout --orphan ${BRANCH} || true
+            cd ..
+          fi
+          rm -rf gh-pages/${TARGET_DIR} || true
+          mkdir -p gh-pages/${TARGET_DIR}
+          cp -r report-site/full/* gh-pages/${TARGET_DIR}/ || true
+          cd gh-pages
+          git add ${TARGET_DIR}
+          git commit -m "chore(reports): update full reports from ${GITHUB_REF}" || echo "no changes to commit"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO} ${BRANCH}
 
       - name: Upload Playwright Report
         if: always()
