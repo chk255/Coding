@@ -1,0 +1,442 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - banner [ref=e6]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - heading "Yahoo Home" [level=1] [ref=e12]
+            - link "Yahoo Home" [ref=e13] [cursor=pointer]:
+              - /url: https://www.yahoo.com/
+              - img [ref=e14]
+              - text: Yahoo Home
+          - search [ref=e17]:
+            - generic [ref=e18]: Search query
+            - combobox "Search query" [active] [ref=e19]
+            - generic:
+              - img
+            - button "Search" [ref=e21] [cursor=pointer]:
+              - img [ref=e22]
+        - navigation [ref=e25]:
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "News" [ref=e28] [cursor=pointer]:
+                - /url: https://www.yahoo.com/
+            - listitem [ref=e29]:
+              - link "Finance" [ref=e30] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/
+            - listitem [ref=e31]:
+              - link "Sports" [ref=e32] [cursor=pointer]:
+                - /url: https://sports.yahoo.com/
+            - listitem [ref=e33]:
+              - button "More" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: More
+                - img [ref=e36]
+        - toolbar [ref=e38]:
+          - link "Check your mail" [ref=e42] [cursor=pointer]:
+            - /url: https://mail.yahoo.com/
+            - img [ref=e43]
+            - generic [ref=e46]: Mail
+          - link "Sign in" [ref=e50] [cursor=pointer]:
+            - /url: https://login.yahoo.com/?.lang=en-US&src=homepage&.done=https%3A%2F%2Fwww.yahoo.com%2F&pspid=2023538075&activity=ybar-signin
+  - generic:
+    - heading "Skip navigation links" [level=2] [ref=e51]
+    - list:
+      - listitem:
+        - link "Skip to main content" [ref=e52] [cursor=pointer]:
+          - /url: "#Main"
+      - listitem:
+        - link "Skip to sidebar" [ref=e53] [cursor=pointer]:
+          - /url: "#Aside"
+  - generic [ref=e55]:
+    - iframe [ref=e59]:
+      - generic [active] [ref=f1e1]:
+        - generic [ref=f1e4]:
+          - generic [ref=f1e5]:
+            - generic "hear.com" [ref=f1e7]:
+              - link "Latest hearing aids of 2025" [ref=f1e8] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CI6TbSywjacrBJezT4t4P3YmR8AaFur7HgwHpxPWjrhWwkB8QASDBgouaAWDlwuSDpA6gAZuU2rkCyAEBqQKPH6-eNf9HPuACAKgDAcgDCqoEwAJP0MBvrwdfuHnpd2JlKpZBO2MmXb-aLwYraNMnu-MVPuhWWrEuvrAgb6B-lUgxJq8Y2yq1jqWzUE5buQcWXtqZoHJkt1a5hAOzqOjKqzi0Nl1Wkwy1zUXe1tPE3c3-paJW5Kq6AtDOzPbZqGIQ0TNJfeIkMvjqbbNOVTok-yNGJOKOoa3DrbFDVsRWQOLCKIadrfwN7Xf8P3hM3PdF38z8zRg5vA_qjrPGqVN1FaGFllFGoSLQ8XBvpPCG64mPtzIShDi030QhHXF_r0pOIbnBIk80MqZpSQBp_qlr98mAObRgc6R45cEWQetDiP7hy-bJn_h54TXy1u8_71fizKmu9Ol7yp9koCbI98M0cKcFFKTph9f9NA-xafCuc2LyfD0aS2Y4pcWW0H3BI0t3dArM2R3GaR0NMgMh0rH_KwnCmsAEkuac2qwF4AQBiAXH6-3OVoAHzeulxgGoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAiIACqANIvf3BOljO0o6Vz4iRA7EJIFWktmei5_iACgOYCwHICwHaDBEKCxDAsu7286yL2a8BEgIBA6oNAklOyA0B4g0TCPyakZXPiJEDFeyp2AUd3UQEbuoNEwigjpKVz4iRAxXsqdgFHd1EBG7wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo3NDk5MDI2NTAwuhcCOAGqGBcJAAAAAIDH-EASCjc0OTkwMjY1MDAYAbIYCRIC604YASIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIipOTlc-IkQMV7KnYBR3dRARuEAEYASAAEgJiHvD_BwE&num=1&cid=CAQSvgEAwksa0ZJK-iFfBJvUYZxpJXmO_qiaLofum-IST2dihd_JpdB9f9RrzXgaiBcq3eqgoUtU5tvt-t3wTkQPVtNebmQT5e7k8Z2zHS-uw-xqoIpKynTMkgWrSGj1p_Xy04Hgpz2ymg33kQ-dXi8NRGhzX8AsDJTULUBstvhHyCW9IUrjDnelK79WVk_dOkJlG0vDBFdMaVVqm6KEKzSbJi8B8TjTRgkcBOxSisqHC6xiQBPlAHZcTy0RN0-wlGBFGAE&sig=AOD64_1uf87Xj90PMxSLm1CKadiYKplbUA&client=ca-pub-2305304999188653&rf=4&nb=0&adurl=https://in.hear.com/d/full_page_questionnaire_map_home_visit/%3Fact%3DACT0000092437ACT%26aud_c%3Dtb11841_Age_Product%26utm_medium%3Dcpc%26utm_source%3Dgdn%26geo%3D9182620%26adgroup%3D183799067410%26Keyword%3D%26MatchType%3D%26position%3D%26creative%3D784695177780%26network%3Dd%26placement%3Dwww.yahoo.com%26utm_publisher_ID%3Dwww.yahoo.com%26utm_term%3D784695177780%26mkt_tool_id%3D784695177780%26gad_source%3D5%26gad_campaignid%3D23250826695%26gclid%3DEAIaIQobChMIipOTlc-IkQMV7KnYBR3dRARuEAEYASAAEgJiHvD_BwE
+            - generic [ref=f1e9]:
+              - link "Especially for senior citizens." [ref=f1e11] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CI6TbSywjacrBJezT4t4P3YmR8AaFur7HgwHpxPWjrhWwkB8QASDBgouaAWDlwuSDpA6gAZuU2rkCyAEBqQKPH6-eNf9HPuACAKgDAcgDCqoEwAJP0MBvrwdfuHnpd2JlKpZBO2MmXb-aLwYraNMnu-MVPuhWWrEuvrAgb6B-lUgxJq8Y2yq1jqWzUE5buQcWXtqZoHJkt1a5hAOzqOjKqzi0Nl1Wkwy1zUXe1tPE3c3-paJW5Kq6AtDOzPbZqGIQ0TNJfeIkMvjqbbNOVTok-yNGJOKOoa3DrbFDVsRWQOLCKIadrfwN7Xf8P3hM3PdF38z8zRg5vA_qjrPGqVN1FaGFllFGoSLQ8XBvpPCG64mPtzIShDi030QhHXF_r0pOIbnBIk80MqZpSQBp_qlr98mAObRgc6R45cEWQetDiP7hy-bJn_h54TXy1u8_71fizKmu9Ol7yp9koCbI98M0cKcFFKTph9f9NA-xafCuc2LyfD0aS2Y4pcWW0H3BI0t3dArM2R3GaR0NMgMh0rH_KwnCmsAEkuac2qwF4AQBiAXH6-3OVoAHzeulxgGoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAiIACqANIvf3BOljO0o6Vz4iRA7EJIFWktmei5_iACgOYCwHICwHaDBEKCxDAsu7286yL2a8BEgIBA6oNAklOyA0B4g0TCPyakZXPiJEDFeyp2AUd3UQEbuoNEwigjpKVz4iRAxXsqdgFHd1EBG7wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo3NDk5MDI2NTAwuhcCOAGqGBcJAAAAAIDH-EASCjc0OTkwMjY1MDAYAbIYCRIC604YASIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIipOTlc-IkQMV7KnYBR3dRARuEAEYASAAEgJiHvD_BwE&num=1&cid=CAQSvgEAwksa0ZJK-iFfBJvUYZxpJXmO_qiaLofum-IST2dihd_JpdB9f9RrzXgaiBcq3eqgoUtU5tvt-t3wTkQPVtNebmQT5e7k8Z2zHS-uw-xqoIpKynTMkgWrSGj1p_Xy04Hgpz2ymg33kQ-dXi8NRGhzX8AsDJTULUBstvhHyCW9IUrjDnelK79WVk_dOkJlG0vDBFdMaVVqm6KEKzSbJi8B8TjTRgkcBOxSisqHC6xiQBPlAHZcTy0RN0-wlGBFGAE&sig=AOD64_1uf87Xj90PMxSLm1CKadiYKplbUA&client=ca-pub-2305304999188653&rf=4&nb=7&adurl=https://in.hear.com/d/full_page_questionnaire_map_home_visit/%3Fact%3DACT0000092437ACT%26aud_c%3Dtb11841_Age_Product%26utm_medium%3Dcpc%26utm_source%3Dgdn%26geo%3D9182620%26adgroup%3D183799067410%26Keyword%3D%26MatchType%3D%26position%3D%26creative%3D784695177780%26network%3Dd%26placement%3Dwww.yahoo.com%26utm_publisher_ID%3Dwww.yahoo.com%26utm_term%3D784695177780%26mkt_tool_id%3D784695177780%26gad_source%3D5%26gad_campaignid%3D23250826695%26gclid%3DEAIaIQobChMIipOTlc-IkQMV7KnYBR3dRARuEAEYASAAEgJiHvD_BwE
+              - link [ref=f1e12] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CI6TbSywjacrBJezT4t4P3YmR8AaFur7HgwHpxPWjrhWwkB8QASDBgouaAWDlwuSDpA6gAZuU2rkCyAEBqQKPH6-eNf9HPuACAKgDAcgDCqoEwAJP0MBvrwdfuHnpd2JlKpZBO2MmXb-aLwYraNMnu-MVPuhWWrEuvrAgb6B-lUgxJq8Y2yq1jqWzUE5buQcWXtqZoHJkt1a5hAOzqOjKqzi0Nl1Wkwy1zUXe1tPE3c3-paJW5Kq6AtDOzPbZqGIQ0TNJfeIkMvjqbbNOVTok-yNGJOKOoa3DrbFDVsRWQOLCKIadrfwN7Xf8P3hM3PdF38z8zRg5vA_qjrPGqVN1FaGFllFGoSLQ8XBvpPCG64mPtzIShDi030QhHXF_r0pOIbnBIk80MqZpSQBp_qlr98mAObRgc6R45cEWQetDiP7hy-bJn_h54TXy1u8_71fizKmu9Ol7yp9koCbI98M0cKcFFKTph9f9NA-xafCuc2LyfD0aS2Y4pcWW0H3BI0t3dArM2R3GaR0NMgMh0rH_KwnCmsAEkuac2qwF4AQBiAXH6-3OVoAHzeulxgGoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAiIACqANIvf3BOljO0o6Vz4iRA7EJIFWktmei5_iACgOYCwHICwHaDBEKCxDAsu7286yL2a8BEgIBA6oNAklOyA0B4g0TCPyakZXPiJEDFeyp2AUd3UQEbuoNEwigjpKVz4iRAxXsqdgFHd1EBG7wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo3NDk5MDI2NTAwuhcCOAGqGBcJAAAAAIDH-EASCjc0OTkwMjY1MDAYAbIYCRIC604YASIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIipOTlc-IkQMV7KnYBR3dRARuEAEYASAAEgJiHvD_BwE&num=1&cid=CAQSvgEAwksa0ZJK-iFfBJvUYZxpJXmO_qiaLofum-IST2dihd_JpdB9f9RrzXgaiBcq3eqgoUtU5tvt-t3wTkQPVtNebmQT5e7k8Z2zHS-uw-xqoIpKynTMkgWrSGj1p_Xy04Hgpz2ymg33kQ-dXi8NRGhzX8AsDJTULUBstvhHyCW9IUrjDnelK79WVk_dOkJlG0vDBFdMaVVqm6KEKzSbJi8B8TjTRgkcBOxSisqHC6xiQBPlAHZcTy0RN0-wlGBFGAE&sig=AOD64_1uf87Xj90PMxSLm1CKadiYKplbUA&client=ca-pub-2305304999188653&rf=4&nb=8&adurl=https://in.hear.com/d/full_page_questionnaire_map_home_visit/%3Fact%3DACT0000092437ACT%26aud_c%3Dtb11841_Age_Product%26utm_medium%3Dcpc%26utm_source%3Dgdn%26geo%3D9182620%26adgroup%3D183799067410%26Keyword%3D%26MatchType%3D%26position%3D%26creative%3D784695177780%26network%3Dd%26placement%3Dwww.yahoo.com%26utm_publisher_ID%3Dwww.yahoo.com%26utm_term%3D784695177780%26mkt_tool_id%3D784695177780%26gad_source%3D5%26gad_campaignid%3D23250826695%26gclid%3DEAIaIQobChMIipOTlc-IkQMV7KnYBR3dRARuEAEYASAAEgJiHvD_BwE
+                - img [ref=f1e13]
+          - generic "hear.com" [ref=f1e15]:
+            - link "hear.com" [ref=f1e16] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CI6TbSywjacrBJezT4t4P3YmR8AaFur7HgwHpxPWjrhWwkB8QASDBgouaAWDlwuSDpA6gAZuU2rkCyAEBqQKPH6-eNf9HPuACAKgDAcgDCqoEwAJP0MBvrwdfuHnpd2JlKpZBO2MmXb-aLwYraNMnu-MVPuhWWrEuvrAgb6B-lUgxJq8Y2yq1jqWzUE5buQcWXtqZoHJkt1a5hAOzqOjKqzi0Nl1Wkwy1zUXe1tPE3c3-paJW5Kq6AtDOzPbZqGIQ0TNJfeIkMvjqbbNOVTok-yNGJOKOoa3DrbFDVsRWQOLCKIadrfwN7Xf8P3hM3PdF38z8zRg5vA_qjrPGqVN1FaGFllFGoSLQ8XBvpPCG64mPtzIShDi030QhHXF_r0pOIbnBIk80MqZpSQBp_qlr98mAObRgc6R45cEWQetDiP7hy-bJn_h54TXy1u8_71fizKmu9Ol7yp9koCbI98M0cKcFFKTph9f9NA-xafCuc2LyfD0aS2Y4pcWW0H3BI0t3dArM2R3GaR0NMgMh0rH_KwnCmsAEkuac2qwF4AQBiAXH6-3OVoAHzeulxgGoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAiIACqANIvf3BOljO0o6Vz4iRA7EJIFWktmei5_iACgOYCwHICwHaDBEKCxDAsu7286yL2a8BEgIBA6oNAklOyA0B4g0TCPyakZXPiJEDFeyp2AUd3UQEbuoNEwigjpKVz4iRAxXsqdgFHd1EBG7wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo3NDk5MDI2NTAwuhcCOAGqGBcJAAAAAIDH-EASCjc0OTkwMjY1MDAYAbIYCRIC604YASIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIipOTlc-IkQMV7KnYBR3dRARuEAEYASAAEgJiHvD_BwE&num=1&cid=CAQSvgEAwksa0ZJK-iFfBJvUYZxpJXmO_qiaLofum-IST2dihd_JpdB9f9RrzXgaiBcq3eqgoUtU5tvt-t3wTkQPVtNebmQT5e7k8Z2zHS-uw-xqoIpKynTMkgWrSGj1p_Xy04Hgpz2ymg33kQ-dXi8NRGhzX8AsDJTULUBstvhHyCW9IUrjDnelK79WVk_dOkJlG0vDBFdMaVVqm6KEKzSbJi8B8TjTRgkcBOxSisqHC6xiQBPlAHZcTy0RN0-wlGBFGAE&sig=AOD64_1uf87Xj90PMxSLm1CKadiYKplbUA&client=ca-pub-2305304999188653&rf=4&nb=1&adurl=https://in.hear.com/d/full_page_questionnaire_map_home_visit/%3Fact%3DACT0000092437ACT%26aud_c%3Dtb11841_Age_Product%26utm_medium%3Dcpc%26utm_source%3Dgdn%26geo%3D9182620%26adgroup%3D183799067410%26Keyword%3D%26MatchType%3D%26position%3D%26creative%3D784695177780%26network%3Dd%26placement%3Dwww.yahoo.com%26utm_publisher_ID%3Dwww.yahoo.com%26utm_term%3D784695177780%26mkt_tool_id%3D784695177780%26gad_source%3D5%26gad_campaignid%3D23250826695%26gclid%3DEAIaIQobChMIipOTlc-IkQMV7KnYBR3dRARuEAEYASAAEgJiHvD_BwE
+        - generic [ref=f1e17]:
+          - link [ref=f1e19] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde937nFMA-QUmmCPNUVHHa8-vLFHmY-i5UZrPafo9mE5hkq5XVbpNFVo2d-XsoI4me4GDZa47pFNhUjScUgcC2rzNWpo941IB-HaqGw77_aUbjzrcoepx3dBJvcu-PfgErHFIp599pNdcp6-DFtMQPo-35QxHCRtI8J4GzZKgBvCAJVHLP_oZbO25wMG1R2hs26bkCbpeH_dwZrSlW5O4SisXdndiXXoI9SzxTx4Wj_h-l_4FEC1ZAzzJEoPIv6JX8v_0zeINuUo-G6OHhSvPWUNrSNe7cHApfB3mSepf8oqfnbIH_5i7HV6gtFwpi6np_T7jXwcQySGZeO3UoR9d5YLYT_1u9PH3T7vJifIsgWFNhGx56tnFmwhlwSLU8meGaTGJSbTL8dvtPlo2pijkvKa78NkbSV-mrKpOgX1eoNnv8RjmRws1jpnxMUS6K6EELxymeepCNpfmYoqDle5ZEhdB6wrFsu6botVfiYqwmCqydVNmypIcFiP1SybqUJMWW2aGArBK4XqsFx7ADQS5tc_eyaz4nc10_zCJEx0YJLDfmOFx8aIZnKMkwEh7s6VecsJpsi8aiqQa2TM1lxSwBNpKWZdRpUaofMSQaY89jT-fwozABzOH2hCF5BT-JnyRhbBpBIPJ_5P50HZ3H5jCkr_zDR6VuPmowSbTJGQtpExs2tBGeYMkt_2RVvwiWcAgGd31akvVBF1HZUmNIESwn-d6gUamULUsfJuVSe8wrw2y-aN7QqWo3i49GLiUPbXw524anKyeR6owi1gthIRa9Oe2n3TtKAJ4eqgywt7w9vpayhY4RG2fx3F3Wv8V0_-N4q5Fz5cS54n9lbabY8q27kzRJZGzxo78JGw0bW6TPkGpeLku57dpOgnpg_7vDmQvUKGkDL9ZOGP3ih9qLop04hIkeicMFPgnsKjy6ZZ3sZYs_uagJ4XV92dWLYD1Yr-KaGtxWpxaHZ17W1kE7TEPX9mECLXBbXC7ccjpq1CIuJeGNtCDOS-Mc_3N0d83rW_UEJ5eCkA5k6wSz1HrE4kXV_kFj__WyIJz0pTQnAJOd-zOwyD8BseVyu4tj8LIyGYWaTG-iCBz2XoMg1GdPEoaiG_BU9CNT1nRN2Wpl1yW_KD1_79rq3wrRB_eajqDePH5w_gbDlnURvrCR8b7vNytgNHkU_xijJoH83t76vsbcWkIWG0qxEaN8gfkdK4AVauWg6mFqE_2ODGi2wdX_aIn5pvin05PBDayVK-WX8VxV8V6avpdlKqy6fdKDUtRSnIQKQjTDWj8m9jOkbGJP-af2aq63F3rCQnn3jOCd4FPTLq462GhaDtu3txb3CAisbA2PK5uPubjEYfzPuFKvMgv2f1gw5CU-3UWcHhVjxSQtGGMQgqVkWE4fAhumv9q24QWxMEcoDeYUbDHOn7yvozDvvJor3-V7FpF9CQCWQdCJk7koHk59cMHyYwTFP80RBygLQI9nUOOxf0WU6OaiAETyHPsMxcpAkmyOXsqTEMLsdme6-U8utm-fVBF9rmhr0qGtHsKcgTAjou7RW_n6jPlIGkGdKGm0NjZohbuKvJ9dH7p9_PMIuwsJJ6_vapDqjrRapxbQuvBhr7GHxx_wtuUYDG_PGFnAXC7PnCSRFD_9EqboZVhupoEXvNEgldtVAWpCTlMJZSnj1cqpwDE8wtnc9aQ9t-xB4vxcVyb_hs0CGomu2pBfXtMGVUTEsEK6HzHc2kfdLQMuzKfiZMhE9l20mpKIE1w2P-FFvVQa4Epa6WWIm-d3WEnH-yDeAj2FuDqfUVmzT7uRpzmjLAqF7YbJVCIxiIehWG0rpRtvrbMnlmMpkr0jelgmmhelv0OFmJzQGPenLgCqF45k4g0QV9ZV5Ri7X_EsIEhYpBkNluqD4pA2tfxcAiyj-x7pvWRx8r_3yf7N_xFh8fefP8sZzeBDFhJWMASSnaVhCd-x4nS_ino5or-dhhQbN4-lyVhuXEgkCVG2Oxznz8yHKemBXiADB2aB2eZlL0bMGKucBlw4SnfU_WhEoBmnYhdXem000aORdIsQ5aTn6rwRgtDwvOXjPnfefB2dU2-pXF_w8csSKViZSNR8UGDx3Ga9y18aTz37mBOCN5VqONTSmVSjlh5_EhcAvjZrIkjChxK7J3ntaPq9YpA0DcdGOtmOcJ5c2SsigxTa6yUxvDSG3AciUTAQkrAc3a0o-xGzYCet748yr2J8QrwFWCKFJAJaYEGqYdT8Wlya58oqkEyjkoWYwHkR3vxv70hTF-v9RAz9vzjSIJqvThiJKNBno2sz1JCctn1UHjB9PcMSLD-NWmpwjHvDP0WY4xIXFAGid4vK-8yPkjTmYnFee9xqZjwog5iysuTLlu0c8XRmlnYbGnoVez8s2zT6P552Z9HFpWyqulu_WhZP9LfTjasF8jR6XhawmASHnFeCFTzOpKZC0NxH8BNLsa5o6NWM-kIbKjQy9P4kYdmP7gYcFA_RFPfhgfQe46gorUUrQgdyJlNQbRegjkSmyaZZ1LXk4Rok-WfwtLv6_iMfsEwttQP4e_bq1gUdu9P5bndx-2GtvuJD3JPmp7AdWY05zTKw8f6R-Z4W0xMRLhYCZevUrGqNkKVgzPIS9C1oIh5ZbnCl3O5-uhjYr5F3OctLo_TgQIJpaJFb6TXBkXL5yOwl3ZhrSGEXVk7AAsW4fTzgMaMAXjal8_a7eL0eSQFHhojjR5puPOU9-lVwaYliEzE5ufIZkKtXWU92MFGcMwBfhnnB-sJ8xihy9aZmDdvw1jU7atGVZAURtSfCUgowllrnZDaqSA0JYRgnUWChjtQ6NFmuyl7vUv5DceKALSgezPd2M3vfO2lsqSzULA&opi=122715837
+            - img [ref=f1e21]
+          - link [ref=f1e23] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde937nFMA-QUmmCPNUVHHa8-vLFHmY-i5UZrPafo9mE5hkq5XVbpNFVo2d-XsoI4me4GDZa47pFNhUjScUgcC2rzNWpo941IB-HaqGw77_aUbjzrcoepx3dBJvcu-PfgErHFIp599pNdcp6-DFtMQPo-35QxHCRtI8J4GzZKgBvCAJVHLP_oZbO25wMG1R2hs26bkCbpeH_dwZrSlW5O4SisXdndiXXoI9SzxTx4Wj_h-l_4FEC1ZAzzJEoPIv6JX8v_0zeINuUo-G6OHhSvPWUNrSNe7cHApfB3mSepf8oqfnbIH_5i7HV6gtFwpi6np_T7jXwcQySGZeO3UoR9d5YLYT_1u9PH3T7vJifIsgWFNhGx56tnFmwhlwSLU8meGaTGJSbTL8dvtPlo2pijkvKa78NkbSV-mrKpOgX1eoNnv8RjmRws1jpnxMUS6K6EELxymeepCNpfmYoqDle5ZEhdB6wrFsu6botVfiYqwmCqydVNmypIcFiP1SybqUJMWW2aGArBK4XqsFx7ADQS5tc_eyaz4nc10_zCJEx0YJLDfmOFx8aIZnKMkwEh7s6VecsJpsi8aiqQa2TM1lxSwBNpKWZdRpUaofMSQaY89jT-fwozABzOH2hCF5BT-JnyRhbBpBIPJ_5P50HZ3H5jCkr_zDR6VuPmowSbTJGQtpExs2tBGeYMkt_2RVvwiWcAgGd31akvVBF1HZUmNIESwn-d6gUamULUsfJuVSe8wrw2y-aN7QqWo3i49GLiUPbXw524anKyeR6owi1gthIRa9Oe2n3TtKAJ4eqgywt7w9vpayhY4RG2fx3F3Wv8V0_-N4q5Fz5cS54n9lbabY8q27kzRJZGzxo78JGw0bW6TPkGpeLku57dpOgnpg_7vDmQvUKGkDL9ZOGP3ih9qLop04hIkeicMFPgnsKjy6ZZ3sZYs_uagJ4XV92dWLYD1Yr-KaGtxWpxaHZ17W1kE7TEPX9mECLXBbXC7ccjpq1CIuJeGNtCDOS-Mc_3N0d83rW_UEJ5eCkA5k6wSz1HrE4kXV_kFj__WyIJz0pTQnAJOd-zOwyD8BseVyu4tj8LIyGYWaTG-iCBz2XoMg1GdPEoaiG_BU9CNT1nRN2Wpl1yW_KD1_79rq3wrRB_eajqDePH5w_gbDlnURvrCR8b7vNytgNHkU_xijJoH83t76vsbcWkIWG0qxEaN8gfkdK4AVauWg6mFqE_2ODGi2wdX_aIn5pvin05PBDayVK-WX8VxV8V6avpdlKqy6fdKDUtRSnIQKQjTDWj8m9jOkbGJP-af2aq63F3rCQnn3jOCd4FPTLq462GhaDtu3txb3CAisbA2PK5uPubjEYfzPuFKvMgv2f1gw5CU-3UWcHhVjxSQtGGMQgqVkWE4fAhumv9q24QWxMEcoDeYUbDHOn7yvozDvvJor3-V7FpF9CQCWQdCJk7koHk59cMHyYwTFP80RBygLQI9nUOOxf0WU6OaiAETyHPsMxcpAkmyOXsqTEMLsdme6-U8utm-fVBF9rmhr0qGtHsKcgTAjou7RW_n6jPlIGkGdKGm0NjZohbuKvJ9dH7p9_PMIuwsJJ6_vapDqjrRapxbQuvBhr7GHxx_wtuUYDG_PGFnAXC7PnCSRFD_9EqboZVhupoEXvNEgldtVAWpCTlMJZSnj1cqpwDE8wtnc9aQ9t-xB4vxcVyb_hs0CGomu2pBfXtMGVUTEsEK6HzHc2kfdLQMuzKfiZMhE9l20mpKIE1w2P-FFvVQa4Epa6WWIm-d3WEnH-yDeAj2FuDqfUVmzT7uRpzmjLAqF7YbJVCIxiIehWG0rpRtvrbMnlmMpkr0jelgmmhelv0OFmJzQGPenLgCqF45k4g0QV9ZV5Ri7X_EsIEhYpBkNluqD4pA2tfxcAiyj-x7pvWRx8r_3yf7N_xFh8fefP8sZzeBDFhJWMASSnaVhCd-x4nS_ino5or-dhhQbN4-lyVhuXEgkCVG2Oxznz8yHKemBXiADB2aB2eZlL0bMGKucBlw4SnfU_WhEoBmnYhdXem000aORdIsQ5aTn6rwRgtDwvOXjPnfefB2dU2-pXF_w8csSKViZSNR8UGDx3Ga9y18aTz37mBOCN5VqONTSmVSjlh5_EhcAvjZrIkjChxK7J3ntaPq9YpA0DcdGOtmOcJ5c2SsigxTa6yUxvDSG3AciUTAQkrAc3a0o-xGzYCet748yr2J8QrwFWCKFJAJaYEGqYdT8Wlya58oqkEyjkoWYwHkR3vxv70hTF-v9RAz9vzjSIJqvThiJKNBno2sz1JCctn1UHjB9PcMSLD-NWmpwjHvDP0WY4xIXFAGid4vK-8yPkjTmYnFee9xqZjwog5iysuTLlu0c8XRmlnYbGnoVez8s2zT6P552Z9HFpWyqulu_WhZP9LfTjasF8jR6XhawmASHnFeCFTzOpKZC0NxH8BNLsa5o6NWM-kIbKjQy9P4kYdmP7gYcFA_RFPfhgfQe46gorUUrQgdyJlNQbRegjkSmyaZZ1LXk4Rok-WfwtLv6_iMfsEwttQP4e_bq1gUdu9P5bndx-2GtvuJD3JPmp7AdWY05zTKw8f6R-Z4W0xMRLhYCZevUrGqNkKVgzPIS9C1oIh5ZbnCl3O5-uhjYr5F3OctLo_TgQIJpaJFb6TXBkXL5yOwl3ZhrSGEXVk7AAsW4fTzgMaMAXjal8_a7eL0eSQFHhojjR5puPOU9-lVwaYliEzE5ufIZkKtXWU92MFGcMwBfhnnB-sJ8xihy9aZmDdvw1jU7atGVZAURtSfCUgowllrnZDaqSA0JYRgnUWChjtQ6NFmuyl7vUv5DceKALSgezPd2M3vfO2lsqSzULA&opi=122715837
+            - img [ref=f1e25]
+        - img [ref=f1e28] [cursor=pointer]
+        - generic [ref=f1e39]:
+          - img [ref=f1e42]
+          - generic [ref=f1e45]:
+            - text: Ads by
+            - img [ref=f1e46]
+          - generic [ref=f1e49]:
+            - generic [ref=f1e52] [cursor=pointer]: Ad options
+            - generic [ref=f1e55] [cursor=pointer]: Send feedback
+            - link [ref=f1e57] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde937nFMA-QUmmCPNUVHHa8-vLFHmY-i5UZrPafo9mE5hkq5XVbpNFVo2d-XsoI4me4GDZa47pFNhUjScUgcC2rzNWpo941IB-HaqGw77_aUbjzrcoepx3dBJvcu-PfgErHFIp599pNdcp6-DFtMQPo-35QxHCRtI8J4GzZKgBvCAJVHLP_oZbO25wMG1R2hs26bkCbpeH_dwZrSlW5O4SisXdndiXXoI9SzxTx4Wj_h-l_4FEC1ZAzzJEoPIv6JX8v_0zeINuUo-G6OHhSvPWUNrSNe7cHApfB3mSepf8oqfnbIH_5i7HV6gtFwpi6np_T7jXwcQySGZeO3UoR9d5YLYT_1u9PH3T7vJifIsgWFNhGx56tnFmwhlwSLU8meGaTGJSbTL8dvtPlo2pijkvKa78NkbSV-mrKpOgX1eoNnv8RjmRws1jpnxMUS6K6EELxymeepCNpfmYoqDle5ZEhdB6wrFsu6botVfiYqwmCqydVNmypIcFiP1SybqUJMWW2aGArBK4XqsFx7ADQS5tc_eyaz4nc10_zCJEx0YJLDfmOFx8aIZnKMkwEh7s6VecsJpsi8aiqQa2TM1lxSwBNpKWZdRpUaofMSQaY89jT-fwozABzOH2hCF5BT-JnyRhbBpBIPJ_5P50HZ3H5jCkr_zDR6VuPmowSbTJGQtpExs2tBGeYMkt_2RVvwiWcAgGd31akvVBF1HZUmNIESwn-d6gUamULUsfJuVSe8wrw2y-aN7QqWo3i49GLiUPbXw524anKyeR6owi1gthIRa9Oe2n3TtKAJ4eqgywt7w9vpayhY4RG2fx3F3Wv8V0_-N4q5Fz5cS54n9lbabY8q27kzRJZGzxo78JGw0bW6TPkGpeLku57dpOgnpg_7vDmQvUKGkDL9ZOGP3ih9qLop04hIkeicMFPgnsKjy6ZZ3sZYs_uagJ4XV92dWLYD1Yr-KaGtxWpxaHZ17W1kE7TEPX9mECLXBbXC7ccjpq1CIuJeGNtCDOS-Mc_3N0d83rW_UEJ5eCkA5k6wSz1HrE4kXV_kFj__WyIJz0pTQnAJOd-zOwyD8BseVyu4tj8LIyGYWaTG-iCBz2XoMg1GdPEoaiG_BU9CNT1nRN2Wpl1yW_KD1_79rq3wrRB_eajqDePH5w_gbDlnURvrCR8b7vNytgNHkU_xijJoH83t76vsbcWkIWG0qxEaN8gfkdK4AVauWg6mFqE_2ODGi2wdX_aIn5pvin05PBDayVK-WX8VxV8V6avpdlKqy6fdKDUtRSnIQKQjTDWj8m9jOkbGJP-af2aq63F3rCQnn3jOCd4FPTLq462GhaDtu3txb3CAisbA2PK5uPubjEYfzPuFKvMgv2f1gw5CU-3UWcHhVjxSQtGGMQgqVkWE4fAhumv9q24QWxMEcoDeYUbDHOn7yvozDvvJor3-V7FpF9CQCWQdCJk7koHk59cMHyYwTFP80RBygLQI9nUOOxf0WU6OaiAETyHPsMxcpAkmyOXsqTEMLsdme6-U8utm-fVBF9rmhr0qGtHsKcgTAjou7RW_n6jPlIGkGdKGm0NjZohbuKvJ9dH7p9_PMIuwsJJ6_vapDqjrRapxbQuvBhr7GHxx_wtuUYDG_PGFnAXC7PnCSRFD_9EqboZVhupoEXvNEgldtVAWpCTlMJZSnj1cqpwDE8wtnc9aQ9t-xB4vxcVyb_hs0CGomu2pBfXtMGVUTEsEK6HzHc2kfdLQMuzKfiZMhE9l20mpKIE1w2P-FFvVQa4Epa6WWIm-d3WEnH-yDeAj2FuDqfUVmzT7uRpzmjLAqF7YbJVCIxiIehWG0rpRtvrbMnlmMpkr0jelgmmhelv0OFmJzQGPenLgCqF45k4g0QV9ZV5Ri7X_EsIEhYpBkNluqD4pA2tfxcAiyj-x7pvWRx8r_3yf7N_xFh8fefP8sZzeBDFhJWMASSnaVhCd-x4nS_ino5or-dhhQbN4-lyVhuXEgkCVG2Oxznz8yHKemBXiADB2aB2eZlL0bMGKucBlw4SnfU_WhEoBmnYhdXem000aORdIsQ5aTn6rwRgtDwvOXjPnfefB2dU2-pXF_w8csSKViZSNR8UGDx3Ga9y18aTz37mBOCN5VqONTSmVSjlh5_EhcAvjZrIkjChxK7J3ntaPq9YpA0DcdGOtmOcJ5c2SsigxTa6yUxvDSG3AciUTAQkrAc3a0o-xGzYCet748yr2J8QrwFWCKFJAJaYEGqYdT8Wlya58oqkEyjkoWYwHkR3vxv70hTF-v9RAz9vzjSIJqvThiJKNBno2sz1JCctn1UHjB9PcMSLD-NWmpwjHvDP0WY4xIXFAGid4vK-8yPkjTmYnFee9xqZjwog5iysuTLlu0c8XRmlnYbGnoVez8s2zT6P552Z9HFpWyqulu_WhZP9LfTjasF8jR6XhawmASHnFeCFTzOpKZC0NxH8BNLsa5o6NWM-kIbKjQy9P4kYdmP7gYcFA_RFPfhgfQe46gorUUrQgdyJlNQbRegjkSmyaZZ1LXk4Rok-WfwtLv6_iMfsEwttQP4e_bq1gUdu9P5bndx-2GtvuJD3JPmp7AdWY05zTKw8f6R-Z4W0xMRLhYCZevUrGqNkKVgzPIS9C1oIh5ZbnCl3O5-uhjYr5F3OctLo_TgQIJpaJFb6TXBkXL5yOwl3ZhrSGEXVk7AAsW4fTzgMaMAXjal8_a7eL0eSQFHhojjR5puPOU9-lVwaYliEzE5ufIZkKtXWU92MFGcMwBfhnnB-sJ8xihy9aZmDdvw1jU7atGVZAURtSfCUgowllrnZDaqSA0JYRgnUWChjtQ6NFmuyl7vUv5DceKALSgezPd2M3vfO2lsqSzULA&opi=122715837
+              - generic [ref=f1e58]:
+                - text: Why this ad?
+                - img [ref=f1e59]
+        - generic [ref=f1e61]:
+          - generic [ref=f1e64] [cursor=pointer]: Ad was inappropriate
+          - generic [ref=f1e67] [cursor=pointer]: Not interested in this ad
+          - generic [ref=f1e70] [cursor=pointer]: Ad covered content
+          - generic [ref=f1e73] [cursor=pointer]: Seen this ad multiple times
+        - generic [ref=f1e79]: Thanks. Feedback improves Google ads
+        - generic [ref=f1e85]:
+          - text: Ad closed by
+          - img [ref=f1e86]
+        - generic [ref=f1e93]:
+          - img [ref=f1e96]
+          - generic [ref=f1e98]:
+            - generic [ref=f1e100]: Personalize ads on this site
+            - link [ref=f1e104] [cursor=pointer]:
+              - /url: https://support.google.com/ads/answer/10923348
+              - generic [ref=f1e105]:
+                - text: Learn more
+                - img [ref=f1e106]
+    - main [ref=e60]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "top stories" [level=2] [ref=e64]
+          - link "Trump pitches health plan that skips insurers, sends money straight to consumers" [ref=e69] [cursor=pointer]:
+            - /url: /news/articles/trumps-obamacare-fix-send-consumers-100318347.html
+            - heading "Trump pitches health plan that skips insurers, sends money straight to consumers" [level=3] [ref=e70]: Trump pitches health plan that skips insurers, sends money straight to consumers
+            - paragraph [ref=e73]: Trump proposes replacing Obamacare subsidies to insurers with direct payments to consumers, as Democrats warn of looming coverage loss without tax credit extension.
+            - paragraph [ref=e74]: Read More »
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - 'link "Chefs agree: This is the secret to a juicy, flavorful Thanksgiving turkey" [ref=e78] [cursor=pointer]':
+              - /url: /shopping/home-garden/kitchen/article/how-to-cook-the-juiciest-thanksgiving-turkey-210409780.html
+              - 'heading "Chefs agree: This is the secret to a juicy, flavorful Thanksgiving turkey" [level=3] [ref=e80]'
+          - listitem [ref=e81]:
+            - 'link "NCAA winners and losers: Syracuse suffers worst loss in over 100 years" [ref=e82] [cursor=pointer]':
+              - /url: /sports/college-football/article/college-football-winners-and-losers-conference-title-game-scenarios-for-every-power-conference-044417549.html
+              - 'heading "NCAA winners and losers: Syracuse suffers worst loss in over 100 years" [level=3] [ref=e84]'
+          - listitem [ref=e85]:
+            - link "Corey Feldman says 'Dancing With the Stars' was a toxic experience off-camera" [ref=e86] [cursor=pointer]:
+              - /url: /entertainment/tv/articles/corey-feldman-says-dancing-stars-204449638.html
+              - heading "Corey Feldman says 'Dancing With the Stars' was a toxic experience off-camera" [level=3] [ref=e88]
+          - listitem [ref=e89]:
+            - link "Take a look back at the Gilded Age mansions on New York City's 'Millionaires' Row'" [ref=e90] [cursor=pointer]:
+              - /url: /news/articles/vintage-photos-show-gilded-age-131201284.html
+              - heading "Take a look back at the Gilded Age mansions on New York City's 'Millionaires' Row'" [level=3] [ref=e92]
+          - listitem [ref=e93]:
+            - link "An aircraft almost twice the size of the Goodyear Blimp was spotted over San Francisco" [ref=e94] [cursor=pointer]:
+              - /url: /news/articles/largest-aircraft-world-seen-over-153844580.html
+              - heading "An aircraft almost twice the size of the Goodyear Blimp was spotted over San Francisco" [level=3] [ref=e96]
+      - generic [ref=e97]:
+        - heading "Stories for you" [level=2] [ref=e102]
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link [ref=e107] [cursor=pointer]:
+                - /url: /news/articles/high-profile-names-epstein-emails-100444538.html
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - strong [ref=e110]: US
+                  - generic [ref=e111]: ·
+                  - generic [ref=e112]: USA TODAY
+                - heading "Here are some of the high-profile names in the Epstein emails" [level=3] [ref=e113]:
+                  - link "Here are some of the high-profile names in the Epstein emails" [ref=e114] [cursor=pointer]:
+                    - /url: /news/articles/high-profile-names-epstein-emails-100444538.html
+                    - text: Here are some of the high-profile names in the Epstein emails
+                - paragraph [ref=e116]: Some men asked for relationship advice. Others shared news articles. One woman blasted feminists.
+                - generic [ref=e117]:
+                  - img [ref=e118] [cursor=pointer]
+                  - generic "5.4K comments" [ref=e120]: 5.4K
+                  - generic [ref=e121]: ·
+                  - generic [ref=e122]: 7 min read
+          - generic [ref=e125]:
+            - generic [ref=e131]:
+              - generic:
+                - figure
+                - generic [ref=e132] [cursor=pointer]:
+                  - link "Image for Taboola Advertising Unit":
+                    - /url: https://zazza.in/pages/adv-motorists
+                    - img "Image for Taboola Advertising Unit" [ref=e134]
+                  - link "Swivo in Taboola advertising section · Taboola Disclosure Finally! A Cloth That Works Without Effort This award-winning Magic Cleaning Cloth traps dust and grime instantly - no water, no soap, no streaks. Works on cars, bikes, and autos. See why drivers across India are switching to this simple cleaning hack." [ref=e136]:
+                    - /url: https://zazza.in/pages/adv-motorists
+                    - generic [ref=e137]:
+                      - generic [ref=e138]:
+                        - link "Swivo in Taboola advertising section" [ref=e139]: Swivo
+                        - generic [ref=e140]: ·
+                        - link "Taboola Disclosure" [ref=e142]:
+                          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-home&utm_medium=referral&utm_content=stream-d:taboola-stream-2:"
+                          - text: Ad
+                      - link "Finally! A Cloth That Works Without Effort" [ref=e143]
+                      - generic [ref=e144]: This award-winning Magic Cleaning Cloth traps dust and grime instantly - no water, no soap, no streaks. Works on cars, bikes, and autos. See why drivers across India are switching to this simple cleaning hack.
+            - button "View ad options" [ref=e146] [cursor=pointer]:
+              - img [ref=e147]
+          - listitem [ref=e149]:
+            - generic [ref=e150]:
+              - link [ref=e152] [cursor=pointer]:
+                - /url: /finance/news/earth-just-happened-stock-market-124823848.html
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - strong [ref=e155]: Business
+                  - generic [ref=e156]: ·
+                  - generic [ref=e157]: CNN Business
+                - heading "What on Earth just happened to the stock market?" [level=3] [ref=e158]:
+                  - link "What on Earth just happened to the stock market?" [ref=e159] [cursor=pointer]:
+                    - /url: /finance/news/earth-just-happened-stock-market-124823848.html
+                    - text: What on Earth just happened to the stock market?
+                - paragraph [ref=e161]: A day after Thursday’s anxiety-inducing fake out, Friday turned into Redemption Day on Wall Street.
+                - generic [ref=e162]:
+                  - img [ref=e163] [cursor=pointer]
+                  - generic "1.7K comments" [ref=e165]: 1.7K
+                  - generic [ref=e166]: ·
+                  - generic [ref=e167]: 4 min read
+          - listitem [ref=e168]:
+            - generic [ref=e169]:
+              - link [ref=e171] [cursor=pointer]:
+                - /url: /news/articles/steve-bannon-elizabeth-warren-bipartisan-004139889.html
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - strong [ref=e174]: Politics
+                  - generic [ref=e175]: ·
+                  - generic [ref=e176]: NBC News
+                - heading "From Steve Bannon to Elizabeth Warren, bipartisan backlash erupts over push to block states from regulating AI" [level=3] [ref=e177]:
+                  - link "From Steve Bannon to Elizabeth Warren, bipartisan backlash erupts over push to block states from regulating AI" [ref=e178] [cursor=pointer]:
+                    - /url: /news/articles/steve-bannon-elizabeth-warren-bipartisan-004139889.html
+                    - text: From Steve Bannon to Elizabeth Warren, bipartisan backlash erupts over push to block states from regulating AI
+                - paragraph [ref=e180]: New efforts this week in Washington to effectively ban individual states from governing artificial intelligence have provoked bipartisan backlash.
+                - generic [ref=e181]:
+                  - img [ref=e182] [cursor=pointer]
+                  - generic "347 comments" [ref=e184]: "347"
+                  - generic [ref=e185]: ·
+                  - generic [ref=e186]: 6 min read
+          - listitem [ref=e187]:
+            - generic [ref=e188]:
+              - link [ref=e190] [cursor=pointer]:
+                - /url: /entertainment/celebrity/articles/usha-vance-broke-her-silence-215357900.html
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - strong [ref=e193]: Celebrity
+                  - generic [ref=e194]: ·
+                  - generic [ref=e195]: BuzzFeed
+                - heading "Usha Vance Broke Her Silence Amid JD Vance Divorce Rumors, And Here's What She Said" [level=3] [ref=e196]:
+                  - link "Usha Vance Broke Her Silence Amid JD Vance Divorce Rumors, And Here's What She Said" [ref=e197] [cursor=pointer]:
+                    - /url: /entertainment/celebrity/articles/usha-vance-broke-her-silence-215357900.html
+                    - text: Usha Vance Broke Her Silence Amid JD Vance Divorce Rumors, And Here's What She Said
+                - paragraph [ref=e199]: Usha was seen without her wedding ring during an outing with Melania Trump, sparking rumors that she and JD Vance were getting a divorce.
+                - generic [ref=e200]:
+                  - img [ref=e201] [cursor=pointer]
+                  - generic "1.2K comments" [ref=e203]: 1.2K
+                  - generic [ref=e204]: ·
+                  - generic [ref=e205]: 2 min read
+          - listitem [ref=e206]:
+            - generic [ref=e207]:
+              - link [ref=e209] [cursor=pointer]:
+                - /url: /entertainment/celebrity/articles/jennifer-lopez-56-breaks-internet-200304360.html
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - strong [ref=e212]: Celebrity
+                  - generic [ref=e213]: ·
+                  - generic [ref=e214]: WHERE IS THE BUZZ
+                - heading "Jennifer Lopez, 56, Breaks the Internet Again With Two Selfies That Should Be Illegal" [level=3] [ref=e215]:
+                  - link "Jennifer Lopez, 56, Breaks the Internet Again With Two Selfies That Should Be Illegal" [ref=e216] [cursor=pointer]:
+                    - /url: /entertainment/celebrity/articles/jennifer-lopez-56-breaks-internet-200304360.html
+                    - text: Jennifer Lopez, 56, Breaks the Internet Again With Two Selfies That Should Be Illegal
+                - paragraph [ref=e218]: Jennifer Lopez has only just posted not one but two new photos on her Instagram, and let me tell you, baby, the social media machines are going apeshit for them… The post Jennifer Lopez, 56, Breaks the Internet Again With Two Selfies That Should Be Illegal appeared first on Where Is The Buzz | Breaking News, Entertainment, Exclusive Interviews & More.
+                - generic [ref=e219]:
+                  - img [ref=e220] [cursor=pointer]
+                  - generic "487 comments" [ref=e222]: "487"
+                  - generic [ref=e223]: ·
+                  - generic [ref=e224]: 2 min read
+          - generic [ref=e227]:
+            - generic [ref=e233]:
+              - generic:
+                - figure
+                - generic [ref=e234] [cursor=pointer]:
+                  - link "Image for Taboola Advertising Unit":
+                    - /url: https://zazza.in/pages/adv-motorists
+                    - img "Image for Taboola Advertising Unit" [ref=e236]
+                  - link "Swivo in Taboola advertising section · Taboola Disclosure Auto Drivers Call It a “Game-Changer” This award-winning Magic Cleaning Cloth traps dust and grime instantly - no water, no soap, no streaks. Works on cars, bikes, and autos. See why drivers across India are switching to this simple cleaning hack." [ref=e238]:
+                    - /url: https://zazza.in/pages/adv-motorists
+                    - generic [ref=e239]:
+                      - generic [ref=e240]:
+                        - link "Swivo in Taboola advertising section" [ref=e241]: Swivo
+                        - generic [ref=e242]: ·
+                        - link "Taboola Disclosure" [ref=e244]:
+                          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-home&utm_medium=referral&utm_content=stream-d:taboola-stream-7:"
+                          - text: Ad
+                      - link "Auto Drivers Call It a “Game-Changer”" [ref=e245]
+                      - generic [ref=e246]: This award-winning Magic Cleaning Cloth traps dust and grime instantly - no water, no soap, no streaks. Works on cars, bikes, and autos. See why drivers across India are switching to this simple cleaning hack.
+            - button "View ad options" [ref=e248] [cursor=pointer]:
+              - img [ref=e249]
+          - listitem [ref=e251]:
+            - generic [ref=e252]:
+              - link [ref=e254] [cursor=pointer]:
+                - /url: /health/your-body/first-aid-safety/cuts/articles/woman-gets-tiny-paper-cut-100000245.html
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - strong [ref=e257]: Celebrity
+                  - generic [ref=e258]: ·
+                  - generic [ref=e259]: People
+                - heading "Woman Gets 'Tiny' Paper Cut from Cardboard Boxes. Days Later, She Removes Bandage and Is Rushed to Urgent Care (Exclusive)" [level=3] [ref=e260]:
+                  - link "Woman Gets 'Tiny' Paper Cut from Cardboard Boxes. Days Later, She Removes Bandage and Is Rushed to Urgent Care (Exclusive)" [ref=e261] [cursor=pointer]:
+                    - /url: /health/your-body/first-aid-safety/cuts/articles/woman-gets-tiny-paper-cut-100000245.html
+                    - text: Woman Gets 'Tiny' Paper Cut from Cardboard Boxes. Days Later, She Removes Bandage and Is Rushed to Urgent Care (Exclusive)
+                - paragraph [ref=e263]: Melinda Howard tells PEOPLE her hand was “really swollen and looked bad"
+                - generic [ref=e264]:
+                  - img [ref=e265] [cursor=pointer]
+                  - generic "106 comments" [ref=e267]: "106"
+                  - generic [ref=e268]: ·
+                  - generic [ref=e269]: 3 min read
+          - listitem [ref=e270]:
+            - generic [ref=e271]:
+              - link [ref=e273] [cursor=pointer]:
+                - /url: /finance/news/harley-davidson-dealerships-shutting-down-110500933.html
+              - generic [ref=e274]:
+                - generic [ref=e275]:
+                  - strong [ref=e276]: Business
+                  - generic [ref=e277]: ·
+                  - generic [ref=e278]: Jalopnik
+                - 'heading "Harley-Davidson Dealerships Are Shutting Down Across America: Here''s Why" [level=3] [ref=e279]':
+                  - 'link "Harley-Davidson Dealerships Are Shutting Down Across America: Here''s Why" [ref=e280] [cursor=pointer]':
+                    - /url: /finance/news/harley-davidson-dealerships-shutting-down-110500933.html
+                    - text: "Harley-Davidson Dealerships Are Shutting Down Across America: Here's Why"
+                - paragraph [ref=e282]: Harley-Davidson showrooms have been closing across the United States. Let's take a look at what kind of economic forces are behind these closures.
+                - generic [ref=e283]:
+                  - img [ref=e284] [cursor=pointer]
+                  - generic "170 comments" [ref=e286]: "170"
+                  - generic [ref=e287]: ·
+                  - generic [ref=e288]: 3 min read
+          - listitem [ref=e289]
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - img [ref=e344]
+          - generic [ref=e346]: Something went wrong. Try again.
+        - generic [ref=e347]:
+          - link "Refresh Page" [ref=e348] [cursor=pointer]:
+            - /url: /
+          - button "Close" [ref=e349] [cursor=pointer]:
+            - img [ref=e351]
+    - complementary [ref=e353]:
+      - generic [ref=e355]:
+        - generic [ref=e358]:
+          - heading "Trending Now" [level=3] [ref=e361] [cursor=pointer]
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - link "1. Caroline Kennedy" [ref=e366] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Caroline+Kennedy&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e367]: "1."
+                - generic [ref=e368]: Caroline Kennedy
+              - link "2. Russia-Ukraine War" [ref=e370] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Russia-Ukraine+War&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e371]: "2."
+                - generic [ref=e372]: Russia-Ukraine War
+              - link "3. Powerball 11/22/25" [ref=e374] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Powerball+11%2F22%2F25&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e375]: "3."
+                - generic [ref=e376]: Powerball 11/22/25
+              - link "4. Aaron Rodgers" [ref=e378] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Aaron+Rodgers&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e379]: "4."
+                - generic [ref=e380]: Aaron Rodgers
+              - link "5. UConn Football" [ref=e382] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=UConn+Football&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e383]: "5."
+                - generic [ref=e384]: UConn Football
+            - generic [ref=e385]:
+              - link "6. ACC Championship Scenarios" [ref=e387] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=ACC+Championship+Scenarios&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e388]: "6."
+                - generic [ref=e389]: ACC Championship Scenarios
+              - link "7. UAB Stabbing" [ref=e391] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=UAB+Stabbing&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e392]: "7."
+                - generic [ref=e393]: UAB Stabbing
+              - link "8. Marjorie Taylor Greene Resigns" [ref=e395] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Marjorie+Taylor+Greene+Resigns&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e396]: "8."
+                - generic [ref=e397]: Marjorie Taylor Greene Resigns
+              - link "9. F1 Standings" [ref=e399] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=F1+Standings&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e400]: "9."
+                - generic [ref=e401]: F1 Standings
+              - link "10. Lane Kiffin" [ref=e403] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Lane+Kiffin&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e404]: "10."
+                - generic [ref=e405]: Lane Kiffin
+        - iframe [ref=e408]:
+          - generic [ref=f2e1]:
+            - link [ref=f2e2] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsuXSzol-RSeZoAXMncv0T4ZWUPAfXetk3Ag3mnGuGlu-RBYL5WQXn-itNGpIj-eMXhN2XpK-GhXOBCQWy7Om17IMFnUUsSVWEsW6OKXnWmGwAX1Iw2PrkYmvikgJCi6TCesmaq2j6YRCaBWw9ZvIzA2y3oOVs6w4Bx05k3a3mPytW8_zO9UpoT2saKLe062u72NrF5DKs14njGbECly3PCKwEsysKA1eKl0sNiigxRuZxgazg1rFMjlwlWmEn33FF6Z10Sgt1vipClvGCpl1f3KwXChzm1lTyoIYrBDQ1r4aYgi1sEDZhpNV20OKQvJ7wyzax632PPXHDWXRS-afRB7qmMoRXvFfZRNCZTZ34MMVSahoQ80vJxwG1mtea_8OIoaGmFGcBF4lNXP2GVq8Vf7I2zVDAkElUERxL4iTFzMh-FAQBpOu1ry9cmgRRq_1G6BnA&sai=AMfl-YRjAwp1hNm2pRKL1_Z8XXYHSwkxZ1JTHVeS8jHdoxg6ZGazMK2C_nhuaPDCNeTXNq6zIK76CcnJaGvmJl1FD6xA1YtqmZTlyWW-A-Uq3JbP26P0wVV8mxmKObwRiCqZH372DXDDFU_Z-bp8PQjjXfWD9R2E71I_M6NT_P5G42ufSUrhPIfAHbB5ap42sXOrBjLX0lX3-pngLBdeWUbj8QaMYk26IA1ME8VvqKoURs1tqKa6VIMz4J_Jkbi3F-GJB6JhOnK8YGK34X7VsLfseN00GamQtJFniWr82zDvv8sh1ak&sig=Cg0ArKJSzKpBG28h8CVh&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://news.yahoo.com/newsletters/the-yodel/%3Fncid%3D100001038
+            - img [ref=f2e6] [cursor=pointer]
+            - button [ref=f2e8] [cursor=pointer]:
+              - img [ref=f2e9]
+        - generic [ref=e410]:
+          - generic [ref=e411]:
+            - heading "Weather" [level=3] [ref=e414]
+            - generic [ref=e416]:
+              - heading "Delhi" [level=4] [ref=e417]
+              - button "View your Locations" [ref=e419] [cursor=pointer]:
+                - img [ref=e420]
+                - generic [ref=e422]: View your Locations
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - generic [ref=e426]: Today
+                - generic [ref=e428]: Clear. Winds from NNW to NW. The overnight low will be 58 °F (14.4 °C).
+                - generic [ref=e429]:
+                  - generic [ref=e430]: 76°
+                  - generic [ref=e431]: 56°
+              - generic [ref=e432]:
+                - generic [ref=e433]: Mon
+                - generic [ref=e435]: Haze today with a high of 76 °F (24.4 °C) and a low of 54 °F (12.2 °C).
+                - generic [ref=e436]:
+                  - generic [ref=e437]: 76°
+                  - generic [ref=e438]: 54°
+              - generic [ref=e439]:
+                - generic [ref=e440]: Tue
+                - generic [ref=e442]: Haze today with a high of 76 °F (24.4 °C) and a low of 52 °F (11.1 °C).
+                - generic [ref=e443]:
+                  - generic [ref=e444]: 76°
+                  - generic [ref=e445]: 52°
+              - generic [ref=e446]:
+                - generic [ref=e447]: Wed
+                - generic [ref=e449]: Haze today with a high of 73 °F (22.8 °C) and a low of 52 °F (11.1 °C).
+                - generic [ref=e450]:
+                  - generic [ref=e451]: 73°
+                  - generic [ref=e452]: 52°
+            - link "See more AccuWeather" [ref=e453] [cursor=pointer]:
+              - /url: https://www.yahoo.com/news/weather/forecast/29229011
+              - text: See more
+              - img "AccuWeather" [ref=e455]
+        - iframe [ref=e468]:
+          - generic [ref=f3e1]:
+            - link [ref=f3e2] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsv3ZVO_rXsY1PXdnYTiy1A_1782Z9X7li-xpZ5FB0n9sAsWTBWY7xMY8Qo4wIwHGaPhsAUfJIWfQ3vmOFBYh08hEiyEmFpodcdiPAeER9ZRrswJptUxNZDSLZ0GlypWb3QdvgzoRG-liVXJbC3f_YO3ZpolwmIl3CAAJ8rnZvrwyaqYbDORwN5wcf6KfIi6xMmWoj55_ll4rqoX9tDJmEeeXip7XVe-Msg3I0VNiA5K5-cLxx5KsyruQlQCSZ18hV7gPcfztw5E05i8540YPewGEtxigUug2OKitrDWz-bYrSYWKj2zoU2wEb7vZdQEPjRNPC4n8lkeYar6Z9orlriZb6ZZAPi6x02TmojwzsOWoKMH4fnCiFLQVPHc2HwTfD81wtw21IUeCWuUnmDyCLV-LG72rAL6nfr_3Lq34yP8v71me2ODgYcx-RUPvzSAqz_qyQ&sai=AMfl-YQzjtXScg_5Q_nLFgFMoaYYTMjwl9dpanwPON4W3o59IyGPFas1fau9EP2JzHv2IgFFT977bXdcckadY_dwRMu8L-owj54W_eVQHXa4URe2CIJiKo_MDSba6hnIYYFIMPEVLxDEQbKgKv0Te56hLvbi8yph2QwVfBokVP77SXz9V5M5imRAkEp_RcVr4I0cSUkgDL8sgw3TFMu85HSe0CHxo79KlNBljEvlkU4U15gEMAUPSxrIyXD2GXbsWaqoc80JLD_jRJ8Sd-S3OqXWH624-S7RXZXbTA8HngCbgBosQGk&sig=Cg0ArKJSzDM8GQVdbYZg&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://yfinance.onelink.me/3068494570%3Fpid%3Dfiller%26c%3DUS_Acquisition_YMktg_337__YahooFinanceAppInstall2025INTL_XYF%26af_sub1%3DAcquisition%26af_sub2%3DUS_YMktg%26af_sub3%3D%26af_sub4%3D100002540%26af_sub5%3DAlertsV2NoButton__Static_300x250%26af_c_id%3D337
+            - img [ref=f3e6] [cursor=pointer]
+            - button [ref=f3e8] [cursor=pointer]:
+              - img [ref=f3e9]
+        - generic [ref=e477]:
+          - iframe [ref=e480]:
+            - generic [ref=f4e1]:
+              - link [ref=f4e2] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsvgChmwyFcwJnqXRBXhnHYiBRhnHBGyTNLEHRV-LQ0L-DXNn4fdS9rMSeNWVElUDExswnTWMogY4LPDxLioL7RhwOaXGNdeFtF8GRbkp2M4VnwK18KBq8LeFtNjYICuKqqfkruplGfKQO3NT0XcrwdAneNCbY_Ax5Ns8rGLNaYaj5ozhWQydOvQv4Sai5832gZBCuWjp_3yNRX2kxvgHafKZxPI3j8w_Z17jGTLCeBdxc5eLQXVVTdsRDTseQfJKP8ZZbo2fzJZs1pgT2nirpy5LuGyZ3fuLJ6YBzCK6g0fMaszimgMgQQo8Fx9Ody1RqrXIIyOPDObu5dHqvB7CI_RFMf-pr2Jz2SqgyGvPT_Qz-EczOafqspCkUX1F6N8biBpFOdC1qTQAwvuErXUfFWjjnh65D4l-qpRXYCLn6MWJyb9LFNfMNFwRdciIjyQ2W6RG80i78SQ&sai=AMfl-YRdsn9idbUYdt1vCPP9mXviRf7BUOYI-d35r5kaySVg-h7JXGzSo3yxY10JT-ovIP14lQ1CMQipJfqinwpV9Lu7O6_wfEsdbxs-0Qwcpq9ax_9nFAm-QmSUwrum_oSuxA2h94wM-0Jlql9VYU0ojnn06UenqqVnaKYNlsuBLx5m4zm7NchYr1QUsjm_vZLVuDGpTewWh7BKfWSR8-4OPiJ8wtKeVW1YHSVbeYIvGD5Ex-7xBC9vDGTysLg62R19_q84m6CVCN8pW10fSHSMRsh8I9vt1wBX807w47zgL4htvCQ&sig=Cg0ArKJSzG_qo-IMU62D&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://news.yahoo.com/newsletters/the-yodel/%3Fncid%3D100001038
+              - img [ref=f4e6] [cursor=pointer]
+              - button [ref=f4e8] [cursor=pointer]:
+                - img [ref=f4e9]
+          - iframe [ref=e483]:
+            - generic [ref=f5e1]:
+              - link [ref=f5e2] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstgTJCLWyJTC9bBKRrH6imEwaR4Qyyo_mLu_3vPyd_R1n-ifyRpZRdiPTbT_3BAou2aiF4GtrZ2V9WGPZA6iJ_YNV1ZEzCMIgBL-xZwvsQ4-woPqQu1exo2CG1A4Uj_ot85YPimsyc4uSNVGQPB1_vVrhIociQih1M5nuRitLXNV_apB8F9KuuhZQmFgQaChVYnDzwN4LGzggixMqAgEX5eHaDaoXC-2ohNBIDTs-1zB948qQj5KPPpVmwOTru88mczjqSe0_g5R-NS087bev_m76H2qMF_3f6j9WZxvkVpU8csF_GQHfHzhzhfv4kSc8WW_W6zdE2OIVn9gntA7bgA4Gj477JEEsXWA4vp0O48DP72Ppg9-WbO5kEJW8u0dPga45gX5U52wBXaBGe7s4H7LxdsasOAR0JzVqKvpmcsTq66n-ZStf7Fj8b_wt1vwIGUKgtodjAH&sai=AMfl-YTVAjpK6sVQPM1bmeAdS7w6cr4vUI_xKR8ZKIIkINc7-qhnUuRBzcB3Cm4KrANSDmjteitOO0nc7pZbbWP3dFo77anjpX-a-hnF8Gfd-plvFAAkdpDeJZ-C1d8qcaLWspU77hL3tQGrhv-rSkxbVbIYM84A_65ddEcSvEnZcI68b0vu2wlMFIsjdSuIVQPQ30KsG4atEj5aLaCoL6PkfpZHbpoy42wBVi11rVd-kRXTTOtdbOTHU4cZPwuCTozPeIvlROgzJfs5Bq8UY8RsOa-E1V5nxF1Llt5rIgJz_1ndhEI&sig=Cg0ArKJSzN-yF9ZMZgtT&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://yfinance.onelink.me/3068494570%3Fpid%3Dfiller%26c%3DUS_Acquisition_YMktg_337__YahooFinanceAppInstall2025INTL_XYF%26af_sub1%3DAcquisition%26af_sub2%3DUS_YMktg%26af_sub3%3D%26af_sub4%3D100002540%26af_sub5%3DAlertsV2NoButton__Static_300x250%26af_c_id%3D337
+              - img [ref=f5e6] [cursor=pointer]
+              - button [ref=f5e8] [cursor=pointer]:
+                - img [ref=f5e9]
+  - alert [ref=e488]
+```

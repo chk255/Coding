@@ -1,0 +1,404 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - banner [ref=e6]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - heading "Yahoo Home" [level=1] [ref=e12]
+            - link "Yahoo Home" [ref=e13] [cursor=pointer]:
+              - /url: https://www.yahoo.com/
+              - img [ref=e14]
+              - text: Yahoo Home
+          - search [ref=e17]:
+            - generic [ref=e18]: Search query
+            - combobox "Search query" [active] [ref=e19]
+            - generic:
+              - img
+            - button "Search" [ref=e21] [cursor=pointer]:
+              - img [ref=e22]
+        - navigation [ref=e25]:
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "News" [ref=e28] [cursor=pointer]:
+                - /url: https://www.yahoo.com/
+            - listitem [ref=e29]:
+              - link "Finance" [ref=e30] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/
+            - listitem [ref=e31]:
+              - link "Sports" [ref=e32] [cursor=pointer]:
+                - /url: https://sports.yahoo.com/
+            - listitem [ref=e33]:
+              - button "More" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: More
+                - img [ref=e36]
+        - toolbar [ref=e38]:
+          - link "Check your mail" [ref=e42] [cursor=pointer]:
+            - /url: https://mail.yahoo.com/
+            - img [ref=e43]
+            - generic [ref=e46]: Mail
+          - link "Sign in" [ref=e50] [cursor=pointer]:
+            - /url: https://login.yahoo.com/?.lang=en-US&src=homepage&.done=https%3A%2F%2Fwww.yahoo.com%2F&pspid=2023538075&activity=ybar-signin
+  - generic:
+    - heading "Skip navigation links" [level=2] [ref=e51]
+    - list:
+      - listitem:
+        - link "Skip to main content" [ref=e52] [cursor=pointer]:
+          - /url: "#Main"
+      - listitem:
+        - link "Skip to sidebar" [ref=e53] [cursor=pointer]:
+          - /url: "#Aside"
+  - generic [ref=e55]:
+    - iframe [ref=e59]:
+      - iframe [ref=f1e2]:
+        - generic [ref=f2e5]:
+          - generic [ref=f2e8] [cursor=pointer]:
+            - link "Image for Taboola Advertising Unit":
+              - /url: https://www.housingman.com/projects/ms/hero-homes-the-palatial-high-sec-104-gurugram-residential
+              - img "Image for Taboola Advertising Unit" [ref=f2e10]
+            - 'link "The Palatial by Hero Homes @ Dwarka Expressway New Launch: 3.5, 4.5BHK Homes starting @ ₹4.96 Cr*, Dwarka E-way. Hero Homes in Taboola advertising section Learn More" [ref=f2e12]':
+              - /url: https://www.housingman.com/projects/ms/hero-homes-the-palatial-high-sec-104-gurugram-residential
+              - generic [ref=f2e13]:
+                - link "The Palatial by Hero Homes @ Dwarka Expressway" [ref=f2e14]
+                - generic [ref=f2e15]: "New Launch: 3.5, 4.5BHK Homes starting @ ₹4.96 Cr*, Dwarka E-way."
+                - generic [ref=f2e16]:
+                  - link "Hero Homes in Taboola advertising section" [ref=f2e17]: Hero Homes
+                  - button "Learn More" [ref=f2e19]
+          - link "Taboola Disclosure" [ref=f2e21] [cursor=pointer]:
+            - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoohomepage-headerbidding&utm_medium=referral&utm_content=Viper_970x250_1x1_Stream:yahoo.com_P1635758_S1635758_TYahoo Homepage - Main - Desktop - Top_Center_W970_H250_N1_TB:"
+    - main [ref=e60]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "top stories" [level=2] [ref=e64]
+          - link "Trump pitches health plan that skips insurers, sends money straight to consumers" [ref=e69] [cursor=pointer]:
+            - /url: /news/articles/trumps-obamacare-fix-send-consumers-100318347.html
+            - heading "Trump pitches health plan that skips insurers, sends money straight to consumers" [level=3] [ref=e70]: Trump pitches health plan that skips insurers, sends money straight to consumers
+            - paragraph [ref=e73]: Trump proposes replacing Obamacare subsidies to insurers with direct payments to consumers, as Democrats warn of looming coverage loss without tax credit extension.
+            - paragraph [ref=e74]: Read More »
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - 'link "Chefs agree: This is the secret to a juicy, flavorful Thanksgiving turkey" [ref=e78] [cursor=pointer]':
+              - /url: /shopping/home-garden/kitchen/article/how-to-cook-the-juiciest-thanksgiving-turkey-210409780.html
+              - 'heading "Chefs agree: This is the secret to a juicy, flavorful Thanksgiving turkey" [level=3] [ref=e80]'
+          - listitem [ref=e81]:
+            - 'link "NCAA winners and losers: Syracuse suffers worst loss in over 100 years" [ref=e82] [cursor=pointer]':
+              - /url: /sports/college-football/article/college-football-winners-and-losers-conference-title-game-scenarios-for-every-power-conference-044417549.html
+              - 'heading "NCAA winners and losers: Syracuse suffers worst loss in over 100 years" [level=3] [ref=e84]'
+          - listitem [ref=e85]:
+            - link "Corey Feldman says 'Dancing With the Stars' was a toxic experience off-camera" [ref=e86] [cursor=pointer]:
+              - /url: /entertainment/tv/articles/corey-feldman-says-dancing-stars-204449638.html
+              - heading "Corey Feldman says 'Dancing With the Stars' was a toxic experience off-camera" [level=3] [ref=e88]
+          - listitem [ref=e89]:
+            - link "Take a look back at the Gilded Age mansions on New York City's 'Millionaires' Row'" [ref=e90] [cursor=pointer]:
+              - /url: /news/articles/vintage-photos-show-gilded-age-131201284.html
+              - heading "Take a look back at the Gilded Age mansions on New York City's 'Millionaires' Row'" [level=3] [ref=e92]
+          - listitem [ref=e93]:
+            - link "An aircraft almost twice the size of the Goodyear Blimp was spotted over San Francisco" [ref=e94] [cursor=pointer]:
+              - /url: /news/articles/largest-aircraft-world-seen-over-153844580.html
+              - heading "An aircraft almost twice the size of the Goodyear Blimp was spotted over San Francisco" [level=3] [ref=e96]
+      - generic [ref=e97]:
+        - heading "Stories for you" [level=2] [ref=e102]
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link [ref=e107] [cursor=pointer]:
+                - /url: /news/articles/high-profile-names-epstein-emails-100444538.html
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - strong [ref=e110]: US
+                  - generic [ref=e111]: ·
+                  - generic [ref=e112]: USA TODAY
+                - heading "Here are some of the high-profile names in the Epstein emails" [level=3] [ref=e113]:
+                  - link "Here are some of the high-profile names in the Epstein emails" [ref=e114] [cursor=pointer]:
+                    - /url: /news/articles/high-profile-names-epstein-emails-100444538.html
+                    - text: Here are some of the high-profile names in the Epstein emails
+                - paragraph [ref=e116]: Some men asked for relationship advice. Others shared news articles. One woman blasted feminists.
+                - generic [ref=e117]:
+                  - img [ref=e118] [cursor=pointer]
+                  - generic "5.4K comments" [ref=e120]: 5.4K
+                  - generic [ref=e121]: ·
+                  - generic [ref=e122]: 7 min read
+          - generic [ref=e125]:
+            - generic [ref=e131]:
+              - generic:
+                - figure
+                - generic [ref=e132] [cursor=pointer]:
+                  - link "Image for Taboola Advertising Unit":
+                    - /url: https://ashtechpresidentialtowers.co.in
+                    - img "Image for Taboola Advertising Unit" [ref=e134]
+                  - link "Ashtech Industries Pvt. Ltd. in Taboola advertising section · Taboola Disclosure Premium 3 and 4 BHK Sundeck Residences Embrace an active lifestyle with a jogging track and indoor games" [ref=e136]:
+                    - /url: https://ashtechpresidentialtowers.co.in
+                    - generic [ref=e137]:
+                      - generic [ref=e138]:
+                        - link "Ashtech Industries Pvt. Ltd. in Taboola advertising section" [ref=e139]: Ashtech Industries Pvt. Ltd.
+                        - generic [ref=e140]: ·
+                        - link "Taboola Disclosure" [ref=e142]:
+                          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-home&utm_medium=referral&utm_content=stream-d:taboola-stream-2:"
+                          - text: Ad
+                      - link "Premium 3 and 4 BHK Sundeck Residences" [ref=e143]
+                      - generic [ref=e144]: Embrace an active lifestyle with a jogging track and indoor games
+            - button "View ad options" [ref=e146] [cursor=pointer]:
+              - img [ref=e147]
+          - listitem [ref=e149]:
+            - generic [ref=e150]:
+              - link [ref=e152] [cursor=pointer]:
+                - /url: /finance/news/earth-just-happened-stock-market-124823848.html
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - strong [ref=e155]: Business
+                  - generic [ref=e156]: ·
+                  - generic [ref=e157]: CNN Business
+                - heading "What on Earth just happened to the stock market?" [level=3] [ref=e158]:
+                  - link "What on Earth just happened to the stock market?" [ref=e159] [cursor=pointer]:
+                    - /url: /finance/news/earth-just-happened-stock-market-124823848.html
+                    - text: What on Earth just happened to the stock market?
+                - paragraph [ref=e161]: A day after Thursday’s anxiety-inducing fake out, Friday turned into Redemption Day on Wall Street.
+                - generic [ref=e162]:
+                  - img [ref=e163] [cursor=pointer]
+                  - generic "1.7K comments" [ref=e165]: 1.7K
+                  - generic [ref=e166]: ·
+                  - generic [ref=e167]: 4 min read
+          - listitem [ref=e168]:
+            - generic [ref=e169]:
+              - link [ref=e171] [cursor=pointer]:
+                - /url: /news/articles/steve-bannon-elizabeth-warren-bipartisan-004139889.html
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - strong [ref=e174]: Politics
+                  - generic [ref=e175]: ·
+                  - generic [ref=e176]: NBC News
+                - heading "From Steve Bannon to Elizabeth Warren, bipartisan backlash erupts over push to block states from regulating AI" [level=3] [ref=e177]:
+                  - link "From Steve Bannon to Elizabeth Warren, bipartisan backlash erupts over push to block states from regulating AI" [ref=e178] [cursor=pointer]:
+                    - /url: /news/articles/steve-bannon-elizabeth-warren-bipartisan-004139889.html
+                    - text: From Steve Bannon to Elizabeth Warren, bipartisan backlash erupts over push to block states from regulating AI
+                - paragraph [ref=e180]: New efforts this week in Washington to effectively ban individual states from governing artificial intelligence have provoked bipartisan backlash.
+                - generic [ref=e181]:
+                  - img [ref=e182] [cursor=pointer]
+                  - generic "347 comments" [ref=e184]: "347"
+                  - generic [ref=e185]: ·
+                  - generic [ref=e186]: 6 min read
+          - listitem [ref=e187]:
+            - generic [ref=e188]:
+              - link [ref=e190] [cursor=pointer]:
+                - /url: /entertainment/celebrity/articles/usha-vance-broke-her-silence-215357900.html
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - strong [ref=e193]: Celebrity
+                  - generic [ref=e194]: ·
+                  - generic [ref=e195]: BuzzFeed
+                - heading "Usha Vance Broke Her Silence Amid JD Vance Divorce Rumors, And Here's What She Said" [level=3] [ref=e196]:
+                  - link "Usha Vance Broke Her Silence Amid JD Vance Divorce Rumors, And Here's What She Said" [ref=e197] [cursor=pointer]:
+                    - /url: /entertainment/celebrity/articles/usha-vance-broke-her-silence-215357900.html
+                    - text: Usha Vance Broke Her Silence Amid JD Vance Divorce Rumors, And Here's What She Said
+                - paragraph [ref=e199]: Usha was seen without her wedding ring during an outing with Melania Trump, sparking rumors that she and JD Vance were getting a divorce.
+                - generic [ref=e200]:
+                  - img [ref=e201] [cursor=pointer]
+                  - generic "1.2K comments" [ref=e203]: 1.2K
+                  - generic [ref=e204]: ·
+                  - generic [ref=e205]: 2 min read
+          - listitem [ref=e206]:
+            - generic [ref=e207]:
+              - link [ref=e209] [cursor=pointer]:
+                - /url: /entertainment/celebrity/articles/jennifer-lopez-56-breaks-internet-200304360.html
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - strong [ref=e212]: Celebrity
+                  - generic [ref=e213]: ·
+                  - generic [ref=e214]: WHERE IS THE BUZZ
+                - heading "Jennifer Lopez, 56, Breaks the Internet Again With Two Selfies That Should Be Illegal" [level=3] [ref=e215]:
+                  - link "Jennifer Lopez, 56, Breaks the Internet Again With Two Selfies That Should Be Illegal" [ref=e216] [cursor=pointer]:
+                    - /url: /entertainment/celebrity/articles/jennifer-lopez-56-breaks-internet-200304360.html
+                    - text: Jennifer Lopez, 56, Breaks the Internet Again With Two Selfies That Should Be Illegal
+                - paragraph [ref=e218]: Jennifer Lopez has only just posted not one but two new photos on her Instagram, and let me tell you, baby, the social media machines are going apeshit for them… The post Jennifer Lopez, 56, Breaks the Internet Again With Two Selfies That Should Be Illegal appeared first on Where Is The Buzz | Breaking News, Entertainment, Exclusive Interviews & More.
+                - generic [ref=e219]:
+                  - img [ref=e220] [cursor=pointer]
+                  - generic "487 comments" [ref=e222]: "487"
+                  - generic [ref=e223]: ·
+                  - generic [ref=e224]: 2 min read
+          - generic [ref=e227]:
+            - generic [ref=e233]:
+              - generic:
+                - figure
+                - generic [ref=e234] [cursor=pointer]:
+                  - link "Image for Taboola Advertising Unit":
+                    - /url: https://hiranandaniexclusive.com/projects/coming-soon-in-alibaug
+                    - img "Image for Taboola Advertising Unit" [ref=e236]
+                  - link "Hiranandani Exclusive in Taboola advertising section · Taboola Disclosure Serviced Apartments by Hiranandani Coming Soon to Alibaug Fully Furnished Serviced Apartments with Assured Rentals by Hiranandani Communities Now Coming Soon to Alibaug" [ref=e238]:
+                    - /url: https://hiranandaniexclusive.com/projects/coming-soon-in-alibaug
+                    - generic [ref=e239]:
+                      - generic [ref=e240]:
+                        - link "Hiranandani Exclusive in Taboola advertising section" [ref=e241]: Hiranandani Exclusive
+                        - generic [ref=e242]: ·
+                        - link "Taboola Disclosure" [ref=e244]:
+                          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-home&utm_medium=referral&utm_content=stream-d:taboola-stream-7:"
+                          - text: Ad
+                      - link "Serviced Apartments by Hiranandani Coming Soon to Alibaug" [ref=e245]
+                      - generic [ref=e246]: Fully Furnished Serviced Apartments with Assured Rentals by Hiranandani Communities Now Coming Soon to Alibaug
+            - button "View ad options" [ref=e248] [cursor=pointer]:
+              - img [ref=e249]
+          - listitem [ref=e251]:
+            - generic [ref=e252]:
+              - link [ref=e254] [cursor=pointer]:
+                - /url: /health/your-body/first-aid-safety/cuts/articles/woman-gets-tiny-paper-cut-100000245.html
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - strong [ref=e257]: Celebrity
+                  - generic [ref=e258]: ·
+                  - generic [ref=e259]: People
+                - heading "Woman Gets 'Tiny' Paper Cut from Cardboard Boxes. Days Later, She Removes Bandage and Is Rushed to Urgent Care (Exclusive)" [level=3] [ref=e260]:
+                  - link "Woman Gets 'Tiny' Paper Cut from Cardboard Boxes. Days Later, She Removes Bandage and Is Rushed to Urgent Care (Exclusive)" [ref=e261] [cursor=pointer]:
+                    - /url: /health/your-body/first-aid-safety/cuts/articles/woman-gets-tiny-paper-cut-100000245.html
+                    - text: Woman Gets 'Tiny' Paper Cut from Cardboard Boxes. Days Later, She Removes Bandage and Is Rushed to Urgent Care (Exclusive)
+                - paragraph [ref=e263]: Melinda Howard tells PEOPLE her hand was “really swollen and looked bad"
+                - generic [ref=e264]:
+                  - img [ref=e265] [cursor=pointer]
+                  - generic "106 comments" [ref=e267]: "106"
+                  - generic [ref=e268]: ·
+                  - generic [ref=e269]: 3 min read
+          - listitem [ref=e270]:
+            - generic [ref=e271]:
+              - link [ref=e273] [cursor=pointer]:
+                - /url: /finance/news/harley-davidson-dealerships-shutting-down-110500933.html
+              - generic [ref=e274]:
+                - generic [ref=e275]:
+                  - strong [ref=e276]: Business
+                  - generic [ref=e277]: ·
+                  - generic [ref=e278]: Jalopnik
+                - 'heading "Harley-Davidson Dealerships Are Shutting Down Across America: Here''s Why" [level=3] [ref=e279]':
+                  - 'link "Harley-Davidson Dealerships Are Shutting Down Across America: Here''s Why" [ref=e280] [cursor=pointer]':
+                    - /url: /finance/news/harley-davidson-dealerships-shutting-down-110500933.html
+                    - text: "Harley-Davidson Dealerships Are Shutting Down Across America: Here's Why"
+                - paragraph [ref=e282]: Harley-Davidson showrooms have been closing across the United States. Let's take a look at what kind of economic forces are behind these closures.
+                - generic [ref=e283]:
+                  - img [ref=e284] [cursor=pointer]
+                  - generic "170 comments" [ref=e286]: "170"
+                  - generic [ref=e287]: ·
+                  - generic [ref=e288]: 3 min read
+          - listitem [ref=e289]
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - img [ref=e344]
+          - generic [ref=e346]: Something went wrong. Try again.
+        - generic [ref=e347]:
+          - link "Refresh Page" [ref=e348] [cursor=pointer]:
+            - /url: /
+          - button "Close" [ref=e349] [cursor=pointer]:
+            - img [ref=e351]
+    - complementary [ref=e353]:
+      - generic [ref=e355]:
+        - generic [ref=e358]:
+          - heading "Trending Now" [level=3] [ref=e361] [cursor=pointer]
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - link "1. Caroline Kennedy" [ref=e366] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Caroline+Kennedy&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e367]: "1."
+                - generic [ref=e368]: Caroline Kennedy
+              - link "2. Russia-Ukraine War" [ref=e370] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Russia-Ukraine+War&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e371]: "2."
+                - generic [ref=e372]: Russia-Ukraine War
+              - link "3. Powerball 11/22/25" [ref=e374] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Powerball+11%2F22%2F25&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e375]: "3."
+                - generic [ref=e376]: Powerball 11/22/25
+              - link "4. Aaron Rodgers" [ref=e378] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Aaron+Rodgers&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e379]: "4."
+                - generic [ref=e380]: Aaron Rodgers
+              - link "5. UConn Football" [ref=e382] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=UConn+Football&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e383]: "5."
+                - generic [ref=e384]: UConn Football
+            - generic [ref=e385]:
+              - link "6. ACC Championship Scenarios" [ref=e387] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=ACC+Championship+Scenarios&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e388]: "6."
+                - generic [ref=e389]: ACC Championship Scenarios
+              - link "7. UAB Stabbing" [ref=e391] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=UAB+Stabbing&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e392]: "7."
+                - generic [ref=e393]: UAB Stabbing
+              - link "8. Marjorie Taylor Greene Resigns" [ref=e395] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Marjorie+Taylor+Greene+Resigns&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e396]: "8."
+                - generic [ref=e397]: Marjorie Taylor Greene Resigns
+              - link "9. F1 Standings" [ref=e399] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=F1+Standings&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e400]: "9."
+                - generic [ref=e401]: F1 Standings
+              - link "10. Lane Kiffin" [ref=e403] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Lane+Kiffin&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e404]: "10."
+                - generic [ref=e405]: Lane Kiffin
+        - iframe [ref=e408]:
+          - generic [ref=f3e1]:
+            - link [ref=f3e2] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsu6QM3X4am7ccQRQd3SQIScnu2uyiORVWdWryCJM5zqvTHJkAW-MTNgQXUzc75_9MwnROQezoZQAkbYvbtZXPoS0eULPD-mZU4ZceQB1oqpXtc6QYRe-Y1o7rmQ2MYk_fkCzYggLtoo4AVDeTb07EnShKOdljOKnPnMhRj30R_zjqI65qLI9qWxaoUtZa3lF5OQZhW6q4H1DB5abqXy1bwWqhtZWjD40Sj4f6zyjFwsp6mZrc__leZZM2C9cElrl2gtI5uRijEvTi_tA9Dy6dmezWC_7sFnyc8NKI_vRmtiAvOvVtCW6t6A_nFs_XSxYt569osKL2ETCNbPfVId7a5-k7j4Nlo8GeYEopTI5kYrngkytsORqxrP-VsfevDQTzDVC7Tdh0RJRherjjpGC8J-O2bE1ICImTt3HlF2vUzMO4AUlYLu2sP4WqxbOPRzjokytA&sai=AMfl-YQFQTlMr8UaPX11BrOH8ulPV5Q1YXNlEpHtSulKxMDryZCLK_xj3lU4SsdZ3W5ExEYWHoIR1s1_QOczYngqlQCSqjsqKrvoQILZbaYNVhPk-wuhMjKawazda3mOhqlWBYSF-QWWbR-gmheXpFf5RrxvEG0dU-PC7ZCyetKJDueavoAxn_C-kN__U68rGb4OEOK9HObOJ28uiuNDQjUrXOMLODVExT_6yyZrIPn2eTM9fCVmCiAM3lK7muKKsmHLMKS_U-SZslmA5gUZq0OXnw&sig=Cg0ArKJSzDFD6Hv3vGmh&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://podcasts.apple.com/us/podcast/the-big-idea-with-elizabeth-gore/id1809808255%3Fncid%3D100002557
+            - img [ref=f3e6] [cursor=pointer]
+            - button [ref=f3e8] [cursor=pointer]:
+              - img [ref=f3e9]
+        - generic [ref=e410]:
+          - generic [ref=e411]:
+            - heading "Weather" [level=3] [ref=e414]
+            - generic [ref=e416]:
+              - heading "Delhi" [level=4] [ref=e417]
+              - button "View your Locations" [ref=e419] [cursor=pointer]:
+                - img [ref=e420]
+                - generic [ref=e422]: View your Locations
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - generic [ref=e426]: Today
+                - generic [ref=e428]: Clear. Winds from NNW to NW. The overnight low will be 58 °F (14.4 °C).
+                - generic [ref=e429]:
+                  - generic [ref=e430]: 76°
+                  - generic [ref=e431]: 56°
+              - generic [ref=e432]:
+                - generic [ref=e433]: Mon
+                - generic [ref=e435]: Haze today with a high of 76 °F (24.4 °C) and a low of 54 °F (12.2 °C).
+                - generic [ref=e436]:
+                  - generic [ref=e437]: 76°
+                  - generic [ref=e438]: 54°
+              - generic [ref=e439]:
+                - generic [ref=e440]: Tue
+                - generic [ref=e442]: Haze today with a high of 76 °F (24.4 °C) and a low of 52 °F (11.1 °C).
+                - generic [ref=e443]:
+                  - generic [ref=e444]: 76°
+                  - generic [ref=e445]: 52°
+              - generic [ref=e446]:
+                - generic [ref=e447]: Wed
+                - generic [ref=e449]: Haze today with a high of 73 °F (22.8 °C) and a low of 52 °F (11.1 °C).
+                - generic [ref=e450]:
+                  - generic [ref=e451]: 73°
+                  - generic [ref=e452]: 52°
+            - link "See more AccuWeather" [ref=e453] [cursor=pointer]:
+              - /url: https://www.yahoo.com/news/weather/forecast/29229011
+              - text: See more
+              - img "AccuWeather" [ref=e455]
+        - iframe [ref=e468]:
+          - generic [ref=f4e1]:
+            - link [ref=f4e2] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjss7OMO3bZYuFxW9iuM5fcPp6QWY2zgrTflWD2zelHl1jt-10Zo5QBvF5QKfu4hO1QKW4ulwPN1BEAWLB7xQ40v_SK8aXrsrHC6U__EFOmBwnnU-ncdKmSXRlPAxkad-pBs68mdnNLvhnKqj1rwXVPrEVhEuX38EijxldEysdir22hHFAjCMQpsC-OhUbv2Co-Gu1egPhSgL-kvUtfEH87k__4X5u8HYyawYU7e-9QiooXSLn68kng_njxXe6XgAHmyWHYMgbc6bewed2_LcfFKP1xfYXOrQE9EYDr_Nv9-dEohLc7pupn2uNLmmIKVjQzvfr3Yu5yfZ3a6JMqBQuYqupEagoqxUauBIn6P4__6rILvK8FXLpB06bttlXUHTZXkLa20ZF4CT1B6uWHDioyUe_piKD5ygL3DbUMzxOHJDnwvNXvGztvT68yRwiLbchGt5Uw&sai=AMfl-YREf6wfIYZrAqK-04AErF3Sl5f35bn9AI0J6xyEZfcHQqlqK1BeYIGA9x7vKYk9SWKYMUQgB_tNOWRTaRbUbpYQHh3FZp04q94MLzRNo-WYMtt1ysyoqaCQJAJAHA0R7Tki3e3eGDSohjD9P-DfabdbP8-CL0QHWljqTN9v_0yw0aAnBVuyq61MkGuBK8wrw_cN2EjlhuwGi_2bckTsQtL1oOk86y-xfIAwDvmEjeroi7Qk74ji4a_rs6l0lfCBYojGy1QM9oBTm70d04urc1FKelKInZoOGNzc9tJNJHZDG_Q0&sig=Cg0ArKJSzHZiqj25r7s3&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://news.yahoo.com/newsletters/the-yodel/%3Fncid%3D100001038
+            - img [ref=f4e6] [cursor=pointer]
+            - button [ref=f4e8] [cursor=pointer]:
+              - img [ref=f4e9]
+        - generic [ref=e477]:
+          - iframe [ref=e480]:
+            - generic [ref=f5e1]:
+              - link [ref=f5e2] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjssxQCWl4BkxCYGCosOsfazxd-gwD0UClWYzQwxh741_lS1sv5JNwwiftc6ToO2Y0jM1SH8XtLb3lMLeVG3H-W-4TBOGb8rZmYCG9G2eHCS3w6doPqHAPa4oXdv7QXEOqgLYTs1EJQTW4NL-b88giRnpkEd0TopUUQX6qFu-HNntJfN1lQNMUgcQ4VKkIbc4hMLvsgRdeeo0aRIBtvZNJRePz7jOahwLuzb7MnO2azYyC4gdhQeq52wOmIRpP9UnjNlR_ZMwlUxDPzTPXcfONru4ObKDHkEwteUIEHwbIJK84imcvacjQKKAk7ipR1LvlGyAToQUu1vl7CQAvkwTpma29rgzJRjcSgg0J2u8OAZa5HqOLf9HLaK1X27F9OFPEyWq1eGbmYcygVtx2cSbsURaoIHyTOtOKiUMiszUGJzukBxijI1EfkjJF2zJMzjvRdIxC95_ShjH&sai=AMfl-YRNMIVIThlIrgMLWv740A-Ft4OpVwzoP0oPfQQagbI8Vt9L_9isA5k1pnfocip0LKs6hucyF34G12EuIGukdluZe700PgAmc7JmTPsYLSB5K79S7oTlOpB6DWR5wkA4U1GI5DfVWQ_ngcHALtTvzooBaOEdVZS_NUba4TH6unBdUSe9EdNpTW48t4VHbngfndBdawBwfbdE85lNb96u0KKxA5ODJotpvSCo2S6yRQe2M9t9cYYk4iqvTGJ0yWULFGxQb9EinnDrXbcIckIbMn1BOMkbs7wVjyhmXSL1oL1adV2n&sig=Cg0ArKJSzFyO25HJ-jTV&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://news.yahoo.com/newsletters/the-yodel/%3Fncid%3D100001038
+              - img [ref=f5e6] [cursor=pointer]
+              - button [ref=f5e8] [cursor=pointer]:
+                - img [ref=f5e9]
+          - iframe [ref=e483]:
+            - generic [ref=f6e1]:
+              - link [ref=f6e2] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsvRtDUKCd1IW0AG3R-maHRCtH6qIBBzXrW8cBUq2nw4rIH3it4uiiYc52ospGRM_eR3e1yYxQV-8IXHgCeeZV81cOsgC52e0lJoV5pNpnOqef9Xm1kEPGG1JSLm9ZzSaZh_SuUqk5CR4Bpm_XllQbAAOpQLN_JhSSduhCOyFJt_zKh6xA9l2B0tchs8b1KynVyoj0lEhJFUb817O4qn2T8Rz9S9rLtAbNyHjh_BOfcKoOxYNYN1Yoj9TDjQm1mGG7iQ_sf8d9ViKSRggs4_FQI3SzTOEaQWFZGgxX4qyUxxmN_gFME52rDCONZZp8NydLZUqwhCc_9ggHNjL68w4v2FY3hISLeiLUQBcIUNl7uB3Jk55e9mwtXKvvjeTXnm09zBUEEDNRctVgBq9wWPt3D2B5tQBnNZMgCuS9NRv3EYlqG87saKAhycpkEngcICQZMcdmHzOJUZ&sai=AMfl-YQwMVki2_okbuHH6gPVinB3RaqZA_ZkOD0xX0aqrr-OABKh7bOycLYesRpMkcZW1qFDXOo9JXzUldCMUpADkE45_o_gNPKDbbPnOgbvebhIZxfQguip4tWgk2vpOWfw6qFXfNmwG8YWQ9FMr4BeiF36cvaCullma_EWeFzoGE-tMNeK3CbcRL4LkWbhUH1ruP04WyOLjzzrZs78WXfCwqXSPNur90pc-mf0ycWN9LIcyLOMgGN-xhzs7kt7kQB_nRYrdvM2imP58wDoyAWD7UpZEBYu_nY9IfIm4xS5dN0jTQxU&sig=Cg0ArKJSzO8YMZm7BkAB&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://yfinance.onelink.me/3068494570%3Fpid%3Dfiller%26c%3DUS_Acquisition_YMktg_337__YahooFinanceAppInstall2025INTL_XYF%26af_sub1%3DAcquisition%26af_sub2%3DUS_YMktg%26af_sub3%3D%26af_sub4%3D100002540%26af_sub5%3DAlertsV2NoButton__Static_300x250%26af_c_id%3D337
+              - img [ref=f6e6] [cursor=pointer]
+              - button [ref=f6e8] [cursor=pointer]:
+                - img [ref=f6e9]
+  - alert [ref=e488]
+```
